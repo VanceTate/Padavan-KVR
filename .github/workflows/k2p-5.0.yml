@@ -74,9 +74,9 @@ jobs:
         ######################################################################
         ##内网穿透
         #echo "CONFIG_FIRMWARE_INCLUDE_NPC=n" >> .config 
-        #echo "CONFIG_FIRMWARE_INCLUDE_ZEROTIER=y" >> .config #zerotier ~1.3M
-        #echo "CONFIG_FIRMWARE_INCLUDE_FRPC=y" >> .config  #frpc
-        #echo "CONFIG_FIRMWARE_INCLUDE_ALIDDNS=y" >> .config #aliddns
+        #echo "CONFIG_FIRMWARE_INCLUDE_ZEROTIER=n" >> .config #zerotier ~1.3M
+        #echo "CONFIG_FIRMWARE_INCLUDE_FRPC=n" >> .config  #frpc
+        #echo "CONFIG_FIRMWARE_INCLUDE_ALIDDNS=n" >> .config #aliddns
         ##科学上网##
         #echo "CONFIG_FIRMWARE_INCLUDE_SHADOWSOCKS=n" >> .config
         #echo "CONFIG_FIRMWARE_INCLUDE_V2RAY=n" >> .config
